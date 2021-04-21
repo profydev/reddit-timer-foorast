@@ -1,7 +1,6 @@
 import React from 'react';
 import { BrowserRouter, Route, Switch } from 'react-router-dom';
 import Search from './Components/Search';
-import './Style/normalize.css';
 import './Style/style.css';
 
 function App() {
