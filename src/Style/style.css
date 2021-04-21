@@ -1,0 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Bitter&family=Montserrat&display=swap');
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: Bitter;
+  color: #000000;
+}
+
+*:not(h1):not(h2):not(h3):not(h4):not(h5):not(h6) {
+  font-family: Montserrat;
+  color: #93918F;
+}
