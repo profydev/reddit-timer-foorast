@@ -5,6 +5,7 @@ import { ThemeProvider } from 'styled-components';
 import GlobalStyle from './GlobalStyle';
 import Search from './Components/Search';
 import theme from './theme';
+import Header from './Components/Header';
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
         <BrowserRouter>
           <Normalize />
           <GlobalStyle />
+          <Header />
           <Switch>
             <Route path="/search"><Search /></Route>
             <Route exact path="/">Home</Route>
